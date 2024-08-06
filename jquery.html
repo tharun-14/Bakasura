@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="navbar.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="col-12 col-md-6 col-lg-3">
+        <div class="shadow food-list-card-container">
+            <img class="food-card-image w-100" src="https://www.licious.in/blog/wp-content/uploads/2023/01/Shutterstock_2047827035.jpg">
+            <h1 class="food-card-heading">Biryani's</h1>
+    
+            <!-- Button trigger modal -->
+            <button type="button" class="food-card-button" data-toggle="modal" data-target="#exampleModal1">View All</button>
+    
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal1" tabindex="-2">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title food-title" id="exampleModalLabel">Biryani's</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <!-- Food Items -->
+                            <div class="food-items-list-container col-12 mb-4">
+                                <img class="food-item-image" src="https://www.indianhealthyrecipes.com/wp-content/uploads/2022/02/hyderabadi-biryani-with-chicken.jpg">
+                                <div class="ml-4">
+                                    <h1 class="food-item-heading">Hyderabadi biryani</h1>
+                                    <p class="food-item-text">This is the most popular food in India and is made with a blend of spices, meat, and vegetables.</p>
+                                    <p>&#8377;200</p>
+                                    <button class="cart-button" data-item="Hyderabadi biryani" data-price="200">Add to Cart</button>
+                                </div>
+                                <hr />
+                            </div>
+                            <!-- Repeat for other food items -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Cart -->
+    <div id="cart">
+        <h2>Cart</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: &#8377;<span id="cart-total">0</span></p>
+    </div>
+<script src="jquery.js"></script>    
+</body>
+</html>
