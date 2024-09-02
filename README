@@ -1,0 +1,21 @@
+Bakasura - Food Ordering Website
+This repository contains the code for a responsive food ordering website where users can browse through a variety of dishes, add items to their cart, place orders, and make payments. The website is designed to provide users a seamless online food ordering experience, allowing restaurant owners to manage orders efficiently.
+About the Project
+
+The Food Ordering Website allows customers to:
+•	Browse and search for dishes from a menu.
+•	Add items to their cart and place an order.
+•	Select delivery complete payments online.
+
+Restaurant owners can manage:
+•	Menu items, including adding, updating, and deleting dishes.
+
+Features
+•	User Authentication: Sign up, login
+•	Menu Browsing: Customers can browse food items categorized by cuisines or meal types.
+•	Cart System: Add or remove items to/from the cart, view total prices.
+•	Order Placement: Customers can place orders for delivery or pickup.
+
+Technologies Used
+•	Frontend: HTML5, CSS3, JavaScript
+•	Others: Bootstrap
